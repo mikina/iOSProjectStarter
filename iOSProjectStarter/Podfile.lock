@@ -1,0 +1,18 @@
+PODS:
+  - Nimble (5.0.0)
+  - Quick (0.10.0)
+  - Reveal-iOS-SDK (1.6.2)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - Reveal-iOS-SDK
+
+SPEC CHECKSUMS:
+  Nimble: 56fc9f5020effa2206de22c3dd910f4fb011b92f
+  Quick: 5d290df1c69d5ee2f0729956dcf0fd9a30447eaa
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
+
+PODFILE CHECKSUM: 3ba1087703766d999aa05bd63b11ace2c22608a6
+
+COCOAPODS: 1.1.1
