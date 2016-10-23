@@ -213,6 +213,7 @@
 				271F390F1DBC06D5001EB6D9 /* Resources */,
 				FAAF9C4190882BE4A2C1F24E /* [CP] Embed Pods Frameworks */,
 				B04F9AE6249160F40AE50690 /* [CP] Copy Pods Resources */,
+				27215DA91DBD644200BCEA51 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -305,6 +306,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		27215DA91DBD644200BCEA51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint lint\nelse\n    echo \"Warning: Install SwiftLint\"\nfi";
+		};
 		62EA95804EA89C34AFB8358A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
