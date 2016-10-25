@@ -11,6 +11,8 @@ target 'iOSProjectStarter' do
 
   # Pods for iOSProjectStarter
   pod 'Reveal-iOS-SDK', :configurations => ['Debug']
+  pod 'Fabric'
+  pod 'Crashlytics'
 end
 
 target 'iOSProjectStarterSpec' do
