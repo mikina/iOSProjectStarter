@@ -15,3 +15,15 @@ iOS Swift project starter. Basic setup for Xcode 8 and Swift 3.
 * Remove storyboards
 * Fake AppDelegate for faster tests
 * Fabric
+
+### Usage
+
+Download and extract [archive](https://github.com/mikina/iOSProjectStarter/archive/master.zip) or git clone.
+
+Run script `rename.sh` with a new project name:
+
+```
+$ ./rename.sh NewProjectName
+```
+
+It will change all of `iOSProjectStarter` names to the `NewProjectName`, then it will install gems and all pod files. 
